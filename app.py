@@ -15,7 +15,7 @@ with tab1:
     st.header("Module 1")
     col1, col2 = st.columns(2)
     with col1:
-        pre_t1_m1 = st.number_input("Pre-T1 Marks", step=1, key="m1_pre_t1")
+        pre_t1_m1 = st.number_input("Pre-T1 Marks", key="m1_pre_t1")
     with col2:
         t1_m1 = st.number_input("T1 (MID) Marks", step=1, key="m1_t1")
 
