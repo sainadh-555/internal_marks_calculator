@@ -60,7 +60,7 @@ with tab1:
             val_t4 = int(t4 or 0)
 
             module_1 = (val_pre_t1_m1 + val_t1_m1) * 0.5 + ass_m1_avg * (5 / 20)
-            module_2 = (val_pre_t1_1_m2 + val_pre_t1_2_m2) * 0.25 + (val_t1_m2) * 0.5 + (val_t2 + val_t3) * 0.5 + (val_t4 * 5) / 8 + ass_m2_avg * (10 / 20)
+            module_2 = (val_pre_t1_1_m2 + val_pre_t1_2_m2) * 0.25 + (val_t1_m2) * 0.5 + (val_t2 + val_t3) * 0.25 + (val_t4 ) / 8 + ass_m2_avg * (10 / 20)
             
             scaled_marks = module_1 + module_2
 
